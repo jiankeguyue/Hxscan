@@ -29,7 +29,7 @@ var (
 )
 
 var rootCmd = &cobra.Command{
-	Use:               "sitescan",
+	Use:               "Hxscan",
 	Short:             "网站一体化信息收集工具 by yueji0j1anke",
 	CompletionOptions: cobra.CompletionOptions{DisableDefaultCmd: true},
 	PersistentPreRun: func(cmd *cobra.Command, args []string) {
